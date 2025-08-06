@@ -1,0 +1,20 @@
+Phishing Email Analysis Report
+Subject: Zonnepanelen voor een goede prijs
+Sender: "Zonnepanelen installateur" zonnepaneel@appjj.serenitepure.fr
+Reply-To: news@aichakandisha.com
+Date: Thu, 3 Nov 2022 04:56:15 +0000
+
+Analysis
+This email exhibits multiple indicators characteristic of phishing attempts. To begin with, the sender's email address and reply-to address use unrelated domains—“serenitepure.fr” for the sender and “aichakandisha.com” for replies—which is a classic spoofing tactic. In the technical headers, authentication mechanisms such as SPF, DKIM, and DMARC all failed or were not set. The header even shows “compauth=fail,” meaning Microsoft's systems could not confirm the sender’s legitimacy. These elements strongly suggest the email could be forged or sent from an unauthorized source.
+
+Examining the body, there are several signs of a phishing campaign. The email includes prominent calls to action urging the recipient to click a link for “vrijblijvende offertes” (non-binding quotes) for solar panels, with URLs pointing to “go.nltrck.com”—a suspicious domain completely unrelated to the supposed solar installer. This kind of mismatched linking is a key phishing red flag.
+
+The message uses urgent and emotionally manipulative language, referencing rising energy costs and pressuring readers to act quickly: “Wacht daarom niet langer en meld u nu aan!” (Don’t wait any longer and sign up now!). Additionally, there are several spelling and grammar mistakes, such as “Het de moeite waard s om...”, “meerdere aanbiederes...”, and “elk jaar scheelt aan energiekosten,” which diminish the credibility of the sender and are commonly found in phishing messages.
+
+There are no file attachments, but the multiple suspicious links embedded in the message are enough to pose a risk. The presentation leverages sophisticated HTML formatting and tracking elements, making the email appear legitimate while attempting to evade basic security checks.
+
+Conclusion
+This email demonstrates many typical phishing indicators, including sender and reply-to spoofing, failed authentication checks, mismatched and suspicious URLs, urgent and manipulative language, and grammar errors. It is designed to lure recipients into clicking a malicious tracking link under the guise of receiving cost-saving solar quotes.
+
+Recommended action:
+Do not click on any links or respond to the email. Instead, report it to your organizational IT/security team and mark it as spam for further investigation.
